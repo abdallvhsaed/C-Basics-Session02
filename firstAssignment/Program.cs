@@ -27,20 +27,26 @@
             //int pages = 464;
             #endregion
             #region question 4
-            try {
-                int x = 10;
-                int y = 0;
-                int z = x / y;
-                Console.WriteLine(z);
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine("you can't divide by zero");
-            }
-            finally
-            {
-                Console.WriteLine("done");
-            }
+            //try {
+            //    int x = 10;
+            //    int y = 0;
+            //    int z = x / y;
+            //    Console.WriteLine(z);
+            //}
+            //catch (Exception ex)
+            //{
+            //    Console.WriteLine("you can't divide by zero");
+            //}
+            //finally
+            //{
+            //    Console.WriteLine("done");
+            //}
+            #endregion
+            #region question 5
+            //declare an int pages = 300; then store it in a double variable without using a cast
+            int pages = 300;
+            double pagesDouble = pages;
+            Console.WriteLine($"pagesDouble = {pagesDouble}");
             #endregion
         }
     }
