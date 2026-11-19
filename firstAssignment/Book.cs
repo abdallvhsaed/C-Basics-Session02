@@ -8,5 +8,10 @@ namespace firstAssignment
     {
         public String Title { get; set; }
         public int pages { get; set; }
+
+        public override string ToString()
+        {
+            return $"Title = {Title} **** pages = {pages}";
+        }
     }
 }
