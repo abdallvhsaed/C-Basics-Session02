@@ -24,7 +24,23 @@
             #region question 3
             //is it a compile time error , a run time error or a logical error
             //the anwer is it is a compile time error because int data type doesn't accept String values
-            int pages = 464;
+            //int pages = 464;
+            #endregion
+            #region question 4
+            try {
+                int x = 10;
+                int y = 0;
+                int z = x / y;
+                Console.WriteLine(z);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("you can't divide by zero");
+            }
+            finally
+            {
+                Console.WriteLine("done");
+            }
             #endregion
         }
     }
