@@ -44,9 +44,15 @@
             #endregion
             #region question 5
             //declare an int pages = 300; then store it in a double variable without using a cast
-            int pages = 300;
-            double pagesDouble = pages;
-            Console.WriteLine($"pagesDouble = {pagesDouble}");
+            //int pages = 300;
+            //double pagesDouble = pages;
+            //Console.WriteLine($"pagesDouble = {pagesDouble}");
+            #endregion
+            #region question 6 
+            //declare a double price =49.99 then convert it into an int using cast
+            double price = 49.99;
+            int priceInt = (int)price;
+            Console.WriteLine($"priceInt = {priceInt}");
             #endregion
         }
     }
