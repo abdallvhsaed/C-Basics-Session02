@@ -82,10 +82,19 @@ namespace firstAssignment
             #region question 9 
             //Given int pages = 464;, convert it into a string using ToString() and print its type using GetType()
             //to prove it's now a string.
-            int pages = 464;
-            string pagesString = pages.ToString();
-            Console.WriteLine($"pagesString = {pagesString}");
-            Console.WriteLine($"Type of pagesString = {pagesString.GetType()}");
+            //int pages = 464;
+            //string pagesString = pages.ToString();
+            //Console.WriteLine($"pagesString = {pagesString}");
+            //Console.WriteLine($"Type of pagesString = {pagesString.GetType()}");
+            #endregion
+            #region question 10 
+            //Declare int copies = 100;. Box it into an object variable, then unbox it back into a new int
+            //variable, and print both.
+            int copies = 100;
+            object copiesBoxed = copies;
+            int copiesUnboxed = (int)copiesBoxed;
+            Console.WriteLine($"copiesBoxed = {copiesBoxed}");
+            Console.WriteLine($"copiesUnboxed = {copiesUnboxed}");
             #endregion
         }
     }
