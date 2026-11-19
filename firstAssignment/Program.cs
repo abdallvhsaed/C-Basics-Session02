@@ -12,14 +12,19 @@
             #endregion
             #region question 2
             //using the book class above, print the result of calling ToSring() equals() GetHashCode() GetType() on book
-                object book1 = new Book { Title = "change your mind", pages = 50 };
-                Console.WriteLine(book1.ToString());
-                Console.WriteLine(book1.Equals(book1));
-                Console.WriteLine(book1.GetHashCode());
-                Console.WriteLine(book1.GetType());
-            
-                
+            //object book1 = new Book { Title = "change your mind", pages = 50 };
+            //Console.WriteLine(book1.ToString());
+            //Console.WriteLine(book1.Equals(book1));
+            //Console.WriteLine(book1.GetHashCode());
+            //Console.WriteLine(book1.GetType());
 
+
+
+            #endregion
+            #region question 3
+            //is it a compile time error , a run time error or a logical error
+            //the anwer is it is a compile time error because int data type doesn't accept String values
+            int pages = 464;
             #endregion
         }
     }
